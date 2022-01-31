@@ -37,9 +37,11 @@
         android:id="@+id/left_star"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/star"
         app:srcCompat="@drawable/ic_star_outline"
         app:tint="?colorOnPrimary"
-        android:contentDescription="@string/star" />
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="51dp" />
 
     <ImageView
         android:id="@+id/right_star"
@@ -53,9 +55,11 @@
         android:id="@+id/red_star"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/star"
         app:srcCompat="@drawable/ic_star_outline"
         app:tint="?colorSecondary"
-        android:contentDescription="@string/star" />
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="51dp" />
 
     <TextView
         android:id="@+id/credits"
